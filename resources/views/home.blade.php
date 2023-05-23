@@ -6,9 +6,9 @@
     <div class="series text-uppercase text-white px-2 py-1 fw-bold fs-5">current series</div>
         @foreach ($comics as $comic)
         <div class="col">
-            <div class="card_thumb">
-                <img src='{{$comic["thumb"]}}' alt="" class="card-img-top ">
-            </div>
+            <a class="card_thumb" href="/card">
+                <img src='{{$comic["thumb"]}}' alt="" class="card-img-top">
+            </a>
             <span class="text-white">{{ $comic["series"] }}</span>
         </div>
           @endforeach

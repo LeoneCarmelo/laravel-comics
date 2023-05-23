@@ -53,6 +53,7 @@ header {
         height: 350px;
         object-fit: cover;
         object-position: top;
+        
     }
 }
 
@@ -68,6 +69,7 @@ main {
             object-fit: cover;
             object-position: top;
             display: block;
+            cursor: pointer;
         }
     }
 
