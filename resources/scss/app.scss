@@ -1,1 +1,15 @@
+@use 'partials/variables' as *;
 @import '~bootstrap/scss/bootstrap';
+
+/* Header */
+ul {
+    list-style: none;
+}
+
+.blue_strip {
+    background-color: $blue-strip;
+}
+
+.logo {
+    width:70px;
+}
