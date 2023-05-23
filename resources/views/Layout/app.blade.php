@@ -16,16 +16,15 @@
 </head>
 
 <body>
+    <!-- Header -->
     @include('partials.header')
-
+    <!-- Jumbotron -->
     @include('partials.jumbotron')
-
-
-
+    <!-- Main -->
     <main class="">
         @yield('content')
     </main>
-
+    <!-- Blue strip -->
 
     @include('partials.footer')
 

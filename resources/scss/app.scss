@@ -18,6 +18,12 @@ li {
     width:70px;
 }
 
+input {
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid $blue-strip;
+}
+
 /* Jumbotron */
 .jumbotron {
     width: 100%;
@@ -29,4 +35,9 @@ li {
         object-fit: cover;
         object-position: top;
     }
+}
+
+/* Main */
+main {
+    background-color: $dark;
 }
