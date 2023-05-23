@@ -10,16 +10,36 @@
                 <img  class="img-fluid" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
             </div>
             <ul class="d-flex gap-3 justify-content-center mt-2">
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
+                <li>CHARACTERS
+                    <div class="segment"></div>
+                </li>
+                <li>COMICS
+                <div class="segment"></div>
+                </li>
+                <li>MOVIES
+                <div class="segment"></div>
+                </li>
+                <li>TV
+                <div class="segment"></div>
+                </li>
+                <li>GAMES
+                <div class="segment"></div>
+                </li>
+                <li>COLLECTIBLES
+                <div class="segment"></div>
+                </li>
+                <li>VIDEOS
+                <div class="segment"></div>
+                </li>
+                <li>FANS
+                <div class="segment"></div>
+                </li>
+                <li>NEWS
+                <div class="segment"></div>
+                </li>
+                <li>SHOP
+                <div class="segment"></div>
+                </li>
             </ul>
             <input  class="ms-5 mb-1" type="text" placeholder="Search...">
         </div>
