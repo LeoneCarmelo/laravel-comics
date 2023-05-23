@@ -9,7 +9,7 @@
             <div class="logo">
                 <img  class="img-fluid" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
             </div>
-            <ul class="d-flex gap-3 justify-content-center py-4">
+            <ul class="d-flex gap-3 justify-content-center py-3">
                 <li>CHARACTERS</li>
                 <li>COMICS</li>
                 <li>MOVIES</li>
