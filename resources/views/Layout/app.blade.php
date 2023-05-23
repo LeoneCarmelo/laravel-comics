@@ -25,7 +25,7 @@
         @yield('content')
     </main>
     <!-- Blue strip -->
-
+    @include('partials.strip')
     @include('partials.footer')
 
 </body>

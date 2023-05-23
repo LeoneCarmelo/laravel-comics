@@ -52,3 +52,20 @@ main {
         }
     }
 }
+
+/* Strip */
+.strip{
+    background-color: $blue-strip;
+}
+
+.picture {
+    width:50px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+ul li:nth-child(4)  img {
+    height:60px;
+}
