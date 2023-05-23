@@ -88,3 +88,30 @@ ul li:nth-child(4)  img {
         color: $blue-strip;
     }
 }
+
+/* Footer */
+
+footer {
+    background-color: $dark;
+
+    .sign_up {
+        text-decoration: none;
+        border: 2px solid $blue-strip;
+        cursor: pointer;
+        color: $light;
+    }
+
+    .sign_up:hover {
+        color: $sign-up;
+        border: 2px solid $light;
+    }
+
+    .icon span {
+        color:$blue-strip;
+        cursor:pointer;
+    }
+
+    img {
+        cursor:pointer;
+    }
+}
