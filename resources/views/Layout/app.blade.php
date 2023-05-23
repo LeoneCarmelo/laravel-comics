@@ -26,6 +26,9 @@
     </main>
     <!-- Blue strip -->
     @include('partials.strip')
+    <!-- Info -->
+    @include('partials.info')
+    <!-- Footer -->
     @include('partials.footer')
 
 </body>

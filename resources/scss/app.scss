@@ -69,3 +69,22 @@ main {
 ul li:nth-child(4)  img {
     height:60px;
 }
+
+/* Info */
+.info {
+    background:  url('../img/dc-logo-bg.png') right  no-repeat, url('../img/footer-bg.jpg') center;
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    li {
+        color: $text-grey;
+        cursor: pointer;
+    }
+
+    li:hover {
+        color: $blue-strip;
+    }
+}
